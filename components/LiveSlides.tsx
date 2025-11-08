@@ -140,8 +140,8 @@ export default function LiveSlides({ roomId, slides, isPresenter }: Props) {
     <div className="min-h-screen bg-neutral-950 text-neutral-100 flex flex-col items-center gap-4 p-4">
       <header className="w-full max-w-4xl flex items-center justify-between">
         <div className="text-sm opacity-80">
-          Sala: <span className="font-mono">{roomId}</span> • Diapositiva{" "}
-          {index + 1}/{slides.length}
+          <span className="font-mono">{roomId}</span> • Diapositiva {index + 1}/
+          {slides.length}
         </div>
 
         <div className="flex items-center gap-2">
@@ -198,9 +198,7 @@ export default function LiveSlides({ roomId, slides, isPresenter }: Props) {
             </button>
           </div>
         ) : (
-          <div className="text-sm opacity-70">
-            Si desactivas “Seguir en vivo”, podrás moverte libremente.
-          </div>
+          <div className="text-sm opacity-70"></div>
         )}
 
         {isPresenter && (

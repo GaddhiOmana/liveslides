@@ -1,5 +1,4 @@
 export const slides = [
-  { src: "https://i.ibb.co/WNBQQCPb/01.png", alt: "Portada" },
-  { src: "https://i.ibb.co/WWdcH7hs/02.png", alt: "Tema principal" },
-  { src: "https://i.ibb.co/rKp8pBT4/03.png", alt: "Conclusión" },
+  { src: "https://i.ibb.co/PshdMB4r/01-c.jpg", alt: "Viaje al futuro" },
+  { src: "https://i.ibb.co/5XqZPst8/001.jpg", alt: "La Batalla Final" },
 ];
