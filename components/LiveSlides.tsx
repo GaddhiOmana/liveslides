@@ -217,7 +217,7 @@ export default function LiveSlides({ roomId, slides, isPresenter }: Props) {
           <div className="text-sm opacity-70"></div>
         )} */}
 
-        {isPresenter && (
+        {/* {isPresenter && (
           <div className="flex items-center gap-2">
             <button
               className="px-3 py-1 rounded-xl bg-neutral-800 hover:bg-neutral-700 text-sm"
@@ -229,7 +229,7 @@ export default function LiveSlides({ roomId, slides, isPresenter }: Props) {
               Reemitir diapositiva
             </button>
           </div>
-        )}
+        )} */}
       </footer>
     </div>
   );
